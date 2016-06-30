@@ -20,7 +20,7 @@ libraryDependencies += "com.gilt" %% "handlebars-scala" % "2.1.1"
 // //////////
 
 // we should have an eye on 3.0(RC) since it has scala.js support
-libraryDependencies += "org.scalatest" % "scalatest_2.10" % "2.0" % "test"
+libraryDependencies += "org.scalatest" % "scalatest_2.10" % "2.2.6" % "test"
 libraryDependencies += "org.scalacheck" %% "scalacheck" % "1.12.5" % "test"
 
 
