@@ -76,3 +76,15 @@ When clicking an item the user might be prompted for a quantity. The item change
 
 ## Persisting actions
 When the connection to the server times out on list actions, the client keeps trying to push the changes to server until it succeeds.
+
+# Build & Run #
+
+```sh
+$ cd dude
+$ ./sbt
+> jetty:start
+> browse
+```
+
+If `browse` doesn't launch your browser, manually open [http://localhost:8080/](http://localhost:8080/) in your browser.
+
